@@ -36,7 +36,6 @@ export default new Router({
 			component: Testimonials,
 		},
 	],
-	mode: "history",
 	// Scroll to top of page when transitioning between components in the router view
 	scrollBehavior() {
 		return { x: 0, y: 0 };
